@@ -1,5 +1,5 @@
-# Dynamic Task Assignment Problem - OM
-Code and definition of a dynamic task assignment problem for Operations Management Lab.
+# Mathematical Formulation and Implementation of Dynamic Task Assignment Problem in 10 Minute School
+Code and definition of a dynamic task assignment problem (Mathematical Formulation and Implementation of Dynamic Task Assignment Problem in 10 Minute School) for Operations Management Lab.
 
 # **Problem Description:**
 An experienced operations manager is responsible for assigning tasks to a team of six workers (workers 1 to 6) to maximize the output level. Each day, he receives a list of tasks with various characteristics, including task type, count, priority, urgency, time requirement, and quality scores of workers for each task type. The goal is to efficiently assign these tasks to workers while considering their availability, task counts, and the importance of the tasks.
@@ -56,3 +56,14 @@ The decision variable $X_{ij}$ is binary and takes a value of 1 if task $j$ is a
 This mathematical formulation addresses the operational challenge of assigning tasks to workers to maximize productivity. The objective function seeks to maximize the output level, which is a combination of the quality scores, task priorities, and urgencies. By optimizing these factors, you can ensure that the most important and time-critical tasks are assigned to the most skilled workers.
 The constraints ensure that tasks are not over-allocated, workers do not exceed their working hours, and the assigned task counts match the given counts. This formulation strikes a balance between productivity and resource constraints.
 Solving this optimization problem will lead to task assignments that achieve the highest possible output level, ultimately improving the operational efficiency of your team.
+
+
+## Citation
+```
+@misc{ wasiDAP2023,
+title = {Mathematical Formulation and Implementation of Dynamic Task Assignment Problem in 10 Minute School},
+author = {Azmine Touhsik Wasi and Anisha Ahmed and Mahir Absar Khan and Abdur Rahman and Rahatun Nesa Priti},
+year = {2023},
+url = {https://github.com/azminewasi/DynamicTaskAssignmentProblemOM}
+}
+```
